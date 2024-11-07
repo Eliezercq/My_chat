@@ -1,4 +1,5 @@
 import flet as ft
+print([e.name for e in ft.AppView])
 
 def main(page):
     
@@ -47,4 +48,4 @@ def main(page):
 
     page.add(botao_iniciar)
 
-ft.app(target=main, view=ft.WEB_BROWSER, port=5500)
+ft.app(target=main, port=5500)
